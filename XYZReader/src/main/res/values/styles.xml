@@ -21,6 +21,11 @@
         <item name="android:colorPrimary">@color/orange_700</item>
         <item name="android:colorPrimaryDark">@color/orange_900</item>
         <item name="android:colorAccent">@color/indigo_a200</item>
+        <item name="colorAccent">@color/indigo_a200</item>
+        <item name="colorPrimary">@color/orange_700</item>
+        <item name="colorPrimaryDark">@color/orange_900</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+        <item name="android:colorForeground">@color/blue_grey_900</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
