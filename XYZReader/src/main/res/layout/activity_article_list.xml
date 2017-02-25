@@ -13,6 +13,8 @@
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
+        android:background="@color/orange_700"
+        android:elevation="@dimen/toolbar_elevation"
         android:layout_height="wrap_content">
 
         <android.support.v7.widget.Toolbar
@@ -27,7 +29,7 @@
 
             <ImageView
                 android:background="@color/orange_700"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:src="@drawable/logo"
                 android:contentDescription="@string/app_name" />
@@ -40,9 +42,10 @@
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:clipToPadding="false"
+        android:clipToPadding="true"
+        android:layout_gravity="top"
         android:scrollbarStyle="outsideOverlay"
-        android:paddingTop="116dp"
+        android:paddingTop="64dp"
         android:paddingLeft="@dimen/list_side_margin"
         android:paddingRight="@dimen/list_side_margin"
         android:paddingBottom="28dp" />
