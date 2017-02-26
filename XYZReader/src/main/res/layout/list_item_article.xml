@@ -23,7 +23,7 @@
             android:id="@+id/thumbnail"
             android:transitionName="@string/photo_shared"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="0dp"
             android:scaleType="fitCenter"
             android:background="@color/photo_placeholder"/>
 
